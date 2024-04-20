@@ -1,0 +1,22 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    font-style: italic;
+}
+
+.about-heading{
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+}
+
+.about-para{
+    font-family: "Roboto";
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}

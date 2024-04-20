@@ -1,0 +1,61 @@
+.wonder-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
+}
+
+@media screen and (min-width:575px){
+    .wonder-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+}
+
+.wonder-details-title{
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+@media screen and (min-width:575px){
+    .wonder-details-title{
+        font-size: 28px;
+        text-align: center;
+        
+        font-family: "Roboto";
+    }
+}
+
+
+
+.wonder-img{
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 20px;
+}
+
+@media screen and (min-width:575px){
+    .wonder-img{
+        width: 660px;
+        height: 300px;
+        border-radius: 8px;
+        object-fit: cover;
+        margin: 30px;
+    }
+}
+
+.wonder-content{
+    margin-top: 15px;
+    font-family: "Roboto";
+    line-height: 24px;
+    color: darkslategrey;
+}
