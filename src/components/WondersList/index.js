@@ -10,7 +10,7 @@ const WondersList = () => {
     useEffect(() =>{
         const getDetails = async() =>{
             try{
-                const response = await fetch("http://localhost:3005/wonders/");
+                const response = await fetch("https://wondersbackendproject-5.onrender.com/wonders/");
                 const data = await response.json()
                 const updatedData = data.map(eachItem =>({
                     id:eachItem.id,
